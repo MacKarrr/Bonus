@@ -1,0 +1,14 @@
+body {background:#FFD700;font-family:Tahoma;text-align:center;font-size:12px;padding:30px 0;margin:0;}
+
+.container {width:960px;margin:0 auto;padding:220px 0 30px;background:url(/im/bug.jpg) 50% 20px no-repeat #FFF;border:10px solid #dfba13;}
+
+.ie6 {position:relative;border-bottom:1px solid #82A9D0;text-align:center;color:#444;font-size:11px;line-height:150%;}
+.ie6 div {padding-top:82px;}
+.ie6 a {padding:77px 25px 0 20px;}
+.ie6 .chrome {background:url(/im/chrome.gif) 50% 7px no-repeat;}
+.ie6 .opera {background:url(/im/opera.gif) 50% 7px no-repeat;}
+.ie6 .firefox {background:url(/im/firefox.gif) 50% 7px no-repeat;}
+.ie6 .safari {background:url(/im/safari.gif) 50% 0 no-repeat;}
+
+.h1 {display:block;font-size:26px;margin:0 0 10px;color:#000;}
+a {color:#0000EE;}

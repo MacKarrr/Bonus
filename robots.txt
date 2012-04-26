@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /_azone
+Disallow: /rbk
+Disallow: /image
+Host: bonusmouse.ru
