@@ -1,0 +1,59 @@
+body{margin:0;padding:0;background:#F3F4F6;}
+table, td{font-family:Verdana;font-size:12;}
+.main{width:100%;height:100%;border-left:1px solid #69c;}
+a{text-decoration:none;color:#183381;}
+a:hover{text-decoration:underline;}
+.dyna {border-bottom:3px solid #BBCAE4;padding:10;height:30;color:#183381;vertical-align:middle;}
+.dyna h1{margin:0;padding:0;}
+.mm{vertical-align:top;padding:10 5 50 5;}
+b{color:#183381;}
+.info, .denied_block {border:1px solid #69c;color:#183381;background:url('/_azone/im/alert.gif') 10px 19px no-repeat #BBCAE4;margin:100 0;}
+.info .f td{padding-top:15;}
+.info .s td{padding-bottom:15;}
+.info .c1{padding-left:60;}
+.info .c2{padding-right:40;}
+
+.denied_block{padding-left:45;color:#D00;font-weight:bold;}
+.denied_foot{height:24;border-top:1px solid #69c;background:#D8E0EE;}
+.denied{text-align:center;vertical-align:top;padding-top:100;}
+
+#control {background:#69c;}
+#control td{background:#F3F4F6;padding:3;}
+#control .check{padding-left:20;}
+th.header {background-color:#D8E0EE;text-align:left;}
+h1 {font-size:16;margin:6;}
+h1, h2, h3, h4, strong{color:#183381;}
+
+.small{font-size:10px;width:300px;}
+input, select, textarea {border: 1px solid #69c;}
+input, textarea {width:100%;}
+input.checkbox {border: 0;}
+input.submit, input.button {margin:5;border-top:1px solid #BBCAE4;border-left:1px solid #BBCAE4;border-right:2px solid #9191DE;border-bottom:2px solid #9191DE;background-color:#D8E0EE;color:#183381;font-weight:bold;}
+.buttoncell {padding:10;text-align:center;}
+.buttoncell input{width:auto;}
+
+.imgview {text-align:center;margin:10;}
+.imgview img, #imgload img{margin:1;border:1px solid #69c;}
+
+.boolctrl{border:0;}
+.boolctrl td{border:0;margin:0;padding:0;}
+
+.log {padding:10 30;vertical-align:top;font-size:10;color:#183381;}
+.log .red{color:#D00;}
+.cmn {padding:2 2 10 2;font-size:10;color:#183381;}
+.cmn .blockquote{font-size:10;padding:2 10;}
+.ok{background:#00D;color:#FFF;font-weight:600;padding:2;}
+.error{background:#D00;color:#FFF;font-weight:600;padding:2;}
+.view, .viewdate, .viewdatem{overflow:auto;color:#555;padding:2px;border-top:2px solid #555;border-left:2px solid #555;border-bottom:1px solid #AAA;border-right:1px solid #AAA;}
+.viewdate, .viewdatem{float:left;margin-right:2px;}
+.viewdatem{width:70px;}
+
+.prm td, .prm th{border-right:1px solid #69c;border-bottom:1px solid #69c;height:23px;}
+.prm .ttl{background-color:#D8E0EE;text-align:right;padding-right:10;}
+
+.prmc1{border-right:1px solid #69C;width:169px;}
+.prmc2{font-size:10px;color:#183381;}
+
+#imgload{text-align:center;}
+
+.a-pass {padding:0 0 5px 20px;display:block;background:url('/_azone/im/dice.png') no-repeat;color:#ffaf00;font-size:10px;cursor:pointer;line-height:16px;}

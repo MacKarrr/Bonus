@@ -1,0 +1,55 @@
+ErrorDocument 404 index.php?page=404
+RewriteEngine on
+Options +FollowSymlinks
+
+RewriteRule (/)?(.*)_p([0-9]+).html(.*) $2.html?pagenum=$3&%{QUERY_STRING}        
+
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteRule ^(/)?i([0-9]+)(.*) index.php?page=reg&userId=$2&%{QUERY_STRING}
+
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteRule ^(/)?print([0-9]+)\.html(.*) index.php?page=print&offerId=$2&%{QUERY_STRING}
+
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteRule ^(/)?forms([0-9]+)\.html(.*) index.php?page=forms&formsId=$2&%{QUERY_STRING}
+
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteRule ^(/)?city([0-9]+)/(.*).html(.*) $3.html?city=$2&%{QUERY_STRING}
+
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteRule ^(/)?pay([0-9]+)\.html(.*) index.php?page=pay&offerId=$2&%{QUERY_STRING}
+
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteRule ^(/)?bonusarch([0-9]{4})?(-)?([0-9]{2})?\.html(.*) index.php?page=bonus&bonusId=arch&bonusy=$2&bonusm=$4&%{QUERY_STRING}
+
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteRule ^(/)?feed.xml index.php?page=xml&%{QUERY_STRING}
+
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteRule ^(/)?bonus([0-9]+)\.html(.*) index.php?page=bonus&bonusId=$2&%{QUERY_STRING}
+
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteRule ^(/)?my([a-z]+)(-)?([a-z]+)?\.html(.*) index.php?page=my&myId=$2&mySubId=$4&%{QUERY_STRING}
+
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteRule ^(/)?page([0-9]+)\.html(.*) index.php?page=page&pageId=$2&%{QUERY_STRING}
+
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteRule ^(/)?([0-9a-z_/-]+)\.html(.*) index.php?page=$2&%{QUERY_STRING}
+
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteRule ^(/)?(.*)(.*) index.php?page=404
+
+#php_value display_errors 1

@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Authorization on the CMS-ATIKO"
+AuthUserFile "/var/www/bonusmouse.ru/_azone/.htpasswd"
+Require valid-user

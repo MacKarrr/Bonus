@@ -1,0 +1,1 @@
+<? return '<div class="formb">'.fXmlTransform($cUsers->fRemind(),'formblock').'</div> <div class="formbr">'.$cPage->pageText.'</div><div class="clear"></div>'; ?>
