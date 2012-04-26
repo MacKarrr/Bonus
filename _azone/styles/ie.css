@@ -1,0 +1,93 @@
+/* ie6 */
+.ie6 {position:relative;background: #F6F6FE;border-bottom:1px solid #82A9D0;text-align:center;padding:13px;color:#444;font-size:11px;line-height:150%;}
+.ie6 div {padding-top:82px;}
+.ie6 a {padding:77px 25px 0 20px;}
+.ie6 .chrome {background:url(/im/chrome.gif) 50% 7px no-repeat;}
+.ie6 .opera {background:url(/im/opera.gif) 50% 7px no-repeat;}
+.ie6 .firefox {background:url(/im/firefox.gif) 50% 7px no-repeat;}
+.ie6 .safari {background:url(/im/safari.gif) 50% 0 no-repeat;}
+
+*html .top {background:url(/im/bg_head.png) repeat-x;}
+*html .footer {background:url(/im/footer.png) repeat-x;}
+
+*+html .top {background:url(/im/bg_head.png) repeat-x #3c4043;}
+*+html .footer {background:url(/im/footer.png) repeat-x #3c4043;}
+
+/* 
+*html #lbox {margin:0;height:0;position:absolute;}
+*html #lbox div {margin:0;height:0;}
+*html #lboxBack {position:absolute!important;}
+
+*html .auth .check {margin:0 5px 0 26px;}
+*html .region input {margin:0 5px 0 0;}
+*html .home {margin:15px 0 0 10px;background:none;}
+*html .top {background:url(/im/top.png) repeat-x #3c4043;position:relative;}
+*html .top a {color:#FFF;}
+*html .top a:hover {text-decoration:underline;}
+*html .top ul {margin:0;}
+*html .blnk span:hover {text-decoration:underline;}
+
+*html .bg {background:url(/im/bg.png) repeat-x #A32428;}
+*html .cntr {height:100%;}
+*html .cntr #content {height:100%;}
+
+*html .sun {background:url(/im/ie6/sun.png) 20px -70px no-repeat;height:120px;position:relative;}
+*html .sun .city {position:absolute;left:412px;}
+*html .sun .city_block {position:absolute;left:0;z-index:100000;}
+*html .mny {background:url(/im/ie6/money.png) no-repeat!important;}
+*html .mny:hover {text-decoration:none;background:url(/im/ie6/money.png) 100% 100% no-repeat!important;}
+*html .auth .bttn_auth {background-image:url(/im/ie6/bttn_auth.png);}
+*html .footer {background:url(/im/top.png) 0 -32px repeat-x;}
+*html .bttn:hover {text-decoration:underline;}
+*html #srch select {margin:8px 0 0 10px;}
+*html #srch .bttn {margin:-1px 10px 10px -10px;}
+*html a.bonusbox .bonuscont .bonusbg {display:none;}
+*html a.bonusbox .timeline {bottom:46px;}
+*html .bonush li {width:220px;}
+*html .form .block .caption {width:100px;}
+*html .form .block .input {margin:-3px 23px 0 0;}
+*html .form .block .textarea {margin:-3px 0 0 0;}
+*html .form .block .secret {margin:0 5px 0 0;}
+*html .form .block .captha {margin:0 40px 0 0;}
+*html .form .block .right.bttn {margin:0 78px 0 0;}
+*/
+
+/* ie7 */
+
+/* 
+*+html #lbox {margin:0;height:0;position:absolute;}
+*+html #lbox div {margin:0;height:0;}
+*+html #lboxBack {position:absolute!important;}
+
+*+html .auth .check {margin:0 5px 0 26px;}
+*+html .region input {margin:0 5px 0 0;}
+*+html .home {margin:15px 0 0 10px;background:none;}
+*+html .top {background:url(/im/top.png) repeat-x #3c4043;position:relative;}
+*+html .top a {color:#FFF;}
+*+html .top a:hover {text-decoration:underline;}
+*+html .top ul {margin:0;}
+*+html .blnk span:hover {text-decoration:underline;}
+
+*+html .bg {background:url(/im/bg.png) repeat-x #A32428;}
+*+html .cntr {height:100%;}
+*+html .cntr #content {height:100%;}
+
+*+html .sun {background:url(/im/ie6/sun.png) 20px -70px no-repeat;height:120px;position:relative;}
+*+html .sun .city {position:absolute;left:412px;}
+*+html .sun .city_block {position:absolute;left:0;z-index:100000;}
+*+html .mny {background:url(/im/ie6/money.png) no-repeat!important;}
+*+html .mny:hover {text-decoration:none;background:url(/im/ie6/money.png) 100% 100% no-repeat!important;}
+*+html .auth .bttn_auth {background-image:url(/im/ie6/bttn_auth.png);}
+*+html .footer {background:url(/im/top.png) 0 -32px repeat-x;}
+*+html .bttn:hover {text-decoration:underline;}
+*+html #srch select {margin:8px 0 0 10px;}
+*+html #srch .bttn {margin:-1px 10px 10px -10px;}
+*+html a.bonusbox .bonuscont .bonusbg {display:none;}
+*+html a.bonusbox .timeline {bottom:46px;}
+*+html .bonush li {width:220px;}
+*+html .form .block .caption {width:100px;}
+*+html .form .block .input {margin:-3px 23px 0 0;}
+*+html .form .block .textarea {margin:-3px 0 0 0;}
+*+html .form .block .secret {margin:0 5px 0 0;}
+*+html .form .block .captha {margin:0 40px 0 0;}
+*+html .form .block .right.bttn {margin:0 78px 0 0;} */

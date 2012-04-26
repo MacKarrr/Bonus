@@ -1,0 +1,19 @@
+body {background:#D8E0EE;margin:0;padding:0;}
+img{border:0;}
+table{font-family:Verdana;font-size:12;border-bottom:1px solid #69C;color:#242C68;}
+.logo{width:202;background:url(/_azone/im/lbg.gif) 100% 50% no-repeat;padding:1 0 0 73;}
+.menu{height:75;background:url(/_azone/im/mbg.gif) 20px 12px no-repeat;}
+
+.menu2 table, .denied{border:0;}
+.menu2 td{padding:3 10;background:url(/_azone/im/mibg.gif) 100% 70% no-repeat;}
+.menu2 .denied td{font-weight:bold;color:#D00;background-image:none;}
+
+a{text-decoration:underline;color:#242C68;}
+a:hover{color:#69C;}
+
+
+.us{padding:2 5;width:180;background:url(/_azone/im/tbg.gif) 0 100% repeat-x;vertical-align:top;margin:2 0 0 0;}
+.user{padding-left:18;background:url(/_azone/im/user.gif) no-repeat;}
+.exit{padding-left:28;background:url(/_azone/im/exit.gif) 10px 0 no-repeat;}
+
+

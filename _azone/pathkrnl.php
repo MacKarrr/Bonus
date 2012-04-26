@@ -1,0 +1,1 @@
+<? return dirname($_SERVER['DOCUMENT_ROOT'])."/".basename($_SERVER['DOCUMENT_ROOT'])."/_azone/"; ?>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+<xsl:import href="design/xsl/pagenum.xsl"/>
+<xsl:output method="html" encoding="windows-1251" indent="no"/>
+  <xsl:template match="items"> <xsl:if test="count(item)>0"> <xsl:apply-templates select="pagenum"/> <xsl:for-each select="item"> <xsl:value-of disable-output-escaping="yes" select="date"/> <a href="{../domainName}newsi{@id}.html" class="h3"><xsl:value-of disable-output-escaping="yes" select="name"/></a> <xsl:if test="img!=''"> <a href="{../domainName}newsi{@id}.html"><img src="{../domainName}{img}" alt="{name}" align="left"/></a> </xsl:if> <xsl:if test="img=''"> <img src="{domainName}im/nofoto150.jpg" alt="{name}" align="left"/> </xsl:if> <div class="mt7"><xsl:value-of disable-output-escaping="yes" select="text"/></div> <div class="mt7"> <a href="{../domainName}newsi{@id}.html" class="bttn right">Подробнее</a> <xsl:if test="count(foto)>0"> <a href="{../domainName}newsi{@id}.html#f" class="bttn right">Фоторепортаж</a> </xsl:if>  </div> <div class="clear"></div> <xsl:if test="position()!=last()"><div class="hr"></div></xsl:if> </xsl:for-each> <xsl:apply-templates select="pagenum"/> </xsl:if> <xsl:if test="count(item)=0"> <div class="alert">По данному разделу информация находится на стадии наполнения</div> </xsl:if>
+  </xsl:template>
+</xsl:stylesheet>

@@ -1,0 +1,14 @@
+body {margin:0;padding:5 10 5 0;background:url(/_azone/im/ibg.gif) repeat-x #ECF0F6;}
+body * {font-family:Verdana;font-size:11;color:#183381;}
+td{padding:3px 0 5px;}
+.m{padding-left:13px;}
+.serv{width:100%;}
+.serv td,img{padding:0;}
+.serv .ttl{padding:3 0;}
+.items {padding-top:10;}
+.itemtd{background:url('/_azone/im/i.gif') 0% 100% repeat-x;}
+a{text-decoration:none;}
+a:hover{text-decoration:underline;}
+a.a0{color:#777;}
+img{vertical-align:bottom;margin:0;padding:1;border:0;}
+.load{color:#F00;}

@@ -1,0 +1,13 @@
+body {background:#CCD7EB;margin:0;padding:0;color:#242C68;}
+td{font-family:Verdana;font-size:12px;}
+.main{text-align:center;width:100%;height:60%;}
+.top{height:65;background:url(/_azone/im/tbg.gif) repeat-x;border-bottom:1px solid #69C;}
+.login{width:280;padding:1px;border:1px solid #69C;background:#D8E0EE;}
+
+.error{padding:5 5 15 80;border-bottom:1px solid #69C;background:url(/_azone/im/lalert.gif) 21px 50% no-repeat;font-size:10;color:#F00;}
+.authorization{padding:5 5 15 80;background:url(/_azone/im/mbg.gif) 16px 20px no-repeat;}
+
+input.submit{border-color:#69C;border-style:solid;border-width:1px 2px 2px 1px;background-color:#D8E0EE;color:#242C68;font-weight:bold;}
+input{border:1px solid #69c;width:180;margin:2px 0px;}
+img{border:0px;}
+.copy{background:#CCD7EB;padding:3;border-top:1px solid #69C;text-align:center;}
